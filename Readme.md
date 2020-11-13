@@ -7,32 +7,12 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/:tallandsassy/:app-branding.svg?style=flat-square)](https://packagist.org/packages/:tallandsassy/:app-branding)
 
 
-This adds a 'admin/teams' page
-v
-## Support us
-
-Please send love
-
-## Installation
-
-Since this is a module, and not a package, you'll need to manually install a couple of things:
-```bash
-php artisan config:clear
-cd app_root/modules;
-git clone githuburl  
-```
-
-Edit config\app.php
-```php
-\TallModSassy\AdminBaseTruthiness\AdminBaseTruthinessServiceProvider::class, # add in the array  
-```
-
 Edit composer.json
 ```json
 "autoload": {
     "psr-4": {
         ...
-        "TallModSassy\\AdminBaseTruthiness\\": "modules\\admin-base-truthiness\\src"
+        "TallModSassy\\AdminBaseTruthiness\\": "modules\\admin-base-truthiness\\src",
         ...
     }
 },  
