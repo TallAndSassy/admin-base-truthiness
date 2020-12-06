@@ -13,6 +13,8 @@ class InnerTrue extends Component {
     public bool $showingModal = false;
     public bool $canUpdate = true;
 
+    public string $title = 'no yet set';
+
     public array $asrRow;
 
     protected $viewRef = 'tassy::livewire.OrSomeViewPathProbablyOverridden_CalledFrom_Class_InnerTrue';
